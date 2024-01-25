@@ -6,5 +6,15 @@ module.exports = {
     extend: {},
   },
   plugins: [],
+  screens: {
+    // 390 — от 0 до 743px => isMobile
+    // 744 — от 744px до 1023px => isSmallTablet
+    // 1024 — от 1024px до 1279px => isTablet
+    // 1440 — от 1280px до ∞ => isDesktop
+    'sm': '390px',
+    'md': '744px',
+    'lg': '1024px',
+    'xl': '1280px',
+},
 }
 
