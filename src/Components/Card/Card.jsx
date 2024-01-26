@@ -14,8 +14,8 @@ export const Card = ({ HorseName }) => (
         ) : (
             <>
                 <img className='mx-auto mt-[47px] mb-[9px]' src={rocking_horse} alt='inactive_horse' />
-                <p className='font-display text-[24px] leading-[29px] mb-[21px]'>Cвободно</p>
-                <Button className='h-[50px]'  title={'Добавить'}/>
+                <p className='font-display mx-auto  text-[24px] leading-[29px] mb-[21px]'>Cвободно</p>
+                <Button className='h-[50px] mx-auto '  title={'Добавить'}/>
             </>
         )
         }

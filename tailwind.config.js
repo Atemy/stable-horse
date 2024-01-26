@@ -6,19 +6,13 @@ module.exports = {
     extend: {
       colors: {
         'header-background': '#E3EAEE',
-<<<<<<< HEAD
-      },
-      fontFamily: {
-        display: 'Inter, ui-serif', 
-=======
         'button-background': '#2C6A3F',
         'button-text':'#FFFFFF',
         'card-background': '#D9D9D9',
       },
       fontFamily: {
-        display: 'Inter', 
->>>>>>> 628a36c (Сверстала карточку лошадей)
-    },
+        display: 'Inter, ui-serif', 
+      },
     },
     screens: {
       // 390 — от 0 до 743px => isMobile
