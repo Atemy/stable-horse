@@ -9,9 +9,13 @@ module.exports = {
         'button-background': '#2C6A3F',
         'button-text':'#FFFFFF',
         'card-background': '#D9D9D9',
+        'windows-horse-background':'#D1E0E8',
+        'data-line-bg':'#E3EAEE',
+        'bg-button-edit':'#2C6A3F',
+        'bg-button-delete':'#C71A1A',
       },
       fontFamily: {
-        display: 'Inter, ui-serif', 
+        display: 'Microsoft Sans Serif', 
       },
     },
     screens: {
