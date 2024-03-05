@@ -6,16 +6,16 @@ export const WindowsHorse = ({ isActive, data }) => (
         {isActive ? (
             <div>
                 <div className='h-[200px] w-[150px] xl:h-[360px] xl:w-[270px] mt-[18px] mb-[10px] xl:mt-[20px] mx-auto xl:mb-[20px]  '>
-                    <img className='xl:h-[360px] xl:w-[270px]' src={data.avatarSrc?data.avatarSrc:stub_windows_horse} alt='Фото вашей лошади' />
+                    <img className='xl:h-[360px] xl:w-[270px]' src={data.avatarSrc ? data.avatarSrc:stub_windows_horse} alt='Фото вашей лошади' />
                 </div>
                 <div className='w-[300px] h-[30px] bg-data-line-bg mx-auto mb-[30px]'>
                 <p className='text-center font-display text-[24px] mb-[20px] xl:mb-[30px] leading-[27px]'>{data.name?data.name:'-'}</p>
                 </div>
-                <DataLine lineName='Пол' lineText={data.male? data.male:'-'} />
-                <DataLine lineName='Год рождения' lineText={data.year? data.year:'-'} />
-                <DataLine lineName='Масть' lineText={data.suit? data.suit:'-'} />
-                <DataLine lineName='Владелец' lineText={data.master? data.master:'-'} />
-                <DataLine lineName='Порода' lineText={data.breed? data.breed:'-'} className="mb-[6px]" />
+                <DataLine lineName='Пол' lineText={data.male ? data.male :'-'} />
+                <DataLine lineName='Год рождения' lineText={data.year ? data.year: '-'} />
+                <DataLine lineName='Масть' lineText={data.suit ? data.suit : '-'} />
+                <DataLine lineName='Владелец' lineText={data.master ? data.master : '-'} />
+                <DataLine lineName='Порода' lineText={data.breed ? data.breed :'-'} className="mb-[6px]" />
 
                 <div className='w-[260px] h-[80px] xl:w-[300px] xl:h-[150px] bg-data-line-bg block mx-auto mb-[6px] '>
                     <p className='text-[12px] opacity-50 mb-[10px] ml-[4px]'> Подробности</p>
