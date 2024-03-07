@@ -6,7 +6,7 @@ export const Card = ({ HorseName }) => (
         {HorseName ? (
             <>
                 <img className='mx-auto mt-[10px] mb-[2px]' src={horse_candle} alt='active_horse' />
-                <p className='text-center font-display text-[24px] leading-[29px] mb-[20px]'>{HorseName}</p>
+                <p className='text-center font-display text-[24px] leading-[29px] mb-[20px] truncate'>{HorseName}</p>
                 <Button className='block mx-auto mb-[20px]'  title={'Кормление'}/>
                 {/* to do ждем исправления макетов*/}
                 <Button className='block mx-auto' title={'Подробнее'}/>
