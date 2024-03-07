@@ -22,7 +22,7 @@ export const mockData = [{
     
     avatarSrc: <img src={Tvajlajt}/> ,
     male: 'Кобыла',
-    name: 'Сумеречная искорка',
+    name: 'Сумеречная Искорка',
     year: 'молодая',
     master: '',
     suit: 'Фиолетовая',
