@@ -6,7 +6,8 @@ export const WindowsHorse = ({ isActive, data }) => (
         {isActive ? (
             <div>
                 <div className='h-[200px] w-[150px] xl:h-[360px] xl:w-[270px] mt-[18px] mb-[10px] xl:mt-[20px] mx-auto xl:mb-[20px]  '>
-                    <img className='xl:h-[360px] xl:w-[270px]' src={data.avatarSrc?data.avatarSrc:stub_windows_horse} alt='Фото вашей лошади' />
+                    {/* <img className='xl:h-[360px] xl:w-[270px]' src={data.avatarSrc?data.avatarSrc:stub_windows_horse} alt='Фото вашей лошади' /> */}
+                <div className='xl:h-[360px] xl:w-[270px]'> {data.avatarSrc?data.avatarSrc:<img src= {stub_windows_horse}/>}</div>
                 </div>
                 <div className='w-[300px] h-[30px] bg-data-line-bg mx-auto mb-[30px]'>
                 <p className='text-center font-display text-[24px] mb-[20px] xl:mb-[30px] leading-[27px]'>{data.name?data.name:'-'}</p>

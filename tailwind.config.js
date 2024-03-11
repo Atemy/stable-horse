@@ -13,6 +13,7 @@ module.exports = {
         'data-line-bg':'#E3EAEE',
         'bg-button-edit':'#2C6A3F',
         'bg-button-delete':'#C71A1A',
+        
       },
       fontFamily: {
         display: 'Microsoft Sans Serif', 
